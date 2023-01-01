@@ -11,6 +11,9 @@
 		5E5329EA296213E700434863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5329E9296213E700434863 /* ContentView.swift */; };
 		5E5329EC296213E800434863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5329EB296213E800434863 /* Assets.xcassets */; };
 		5E5329EF296213E800434863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5329EE296213E800434863 /* Preview Assets.xcassets */; };
+		5E5329F72962159800434863 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5329F62962159800434863 /* Bacteria.swift */; };
+		5E5329F92962184C00434863 /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5329F82962184C00434863 /* BacteriaView.swift */; };
+		5E5329FB29621B6E00434863 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5329FA29621B6E00434863 /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5E5329EB296213E800434863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5329EE296213E800434863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E5329F0296213E800434863 /* BioBlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioBlitz.entitlements; sourceTree = "<group>"; };
+		5E5329F62962159800434863 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		5E5329F82962184C00434863 /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		5E5329FA29621B6E00434863 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				5E5329E7296213E700434863 /* BioBlitzApp.swift */,
+				5E5329F62962159800434863 /* Bacteria.swift */,
+				5E5329F82962184C00434863 /* BacteriaView.swift */,
 				5E5329E9296213E700434863 /* ContentView.swift */,
+				5E5329FA29621B6E00434863 /* GameBoard.swift */,
 				5E5329EB296213E800434863 /* Assets.xcassets */,
 				5E5329F0296213E800434863 /* BioBlitz.entitlements */,
 				5E5329ED296213E800434863 /* Preview Content */,
@@ -141,6 +150,9 @@
 			files = (
 				5E5329EA296213E700434863 /* ContentView.swift in Sources */,
 				5E5329E8296213E700434863 /* BioBlitzApp.swift in Sources */,
+				5E5329FB29621B6E00434863 /* GameBoard.swift in Sources */,
+				5E5329F72962159800434863 /* Bacteria.swift in Sources */,
+				5E5329F92962184C00434863 /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
